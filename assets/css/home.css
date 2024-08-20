@@ -1,0 +1,1499 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(/assets/images/bg.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.493);
+    backdrop-filter: blur(10px);
+      
+}
+
+/*  NAVBAR */
+
+.Navbar{
+    background-color: rgba(255, 255, 255, 0.493);
+     backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 70%;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+.NavItem{
+    justify-content: space-around;
+    margin-right: 200px;
+}
+.logo{
+    width: 20%;
+}
+
+.icon-bar{
+    float: right;
+}
+/* navbar end */
+
+
+/* first section */
+
+.first{
+    position: relative;
+    display: flex;
+    color: white;
+    width: 500px;
+    height: 100vh;
+    margin: 30px;
+    justify-content: space-evenly;
+   
+}
+.img1{  
+    position: absolute;
+    width: 400px;
+    height: 65vh;
+    left: 0;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.First-head{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+}
+
+.head{    
+    display: grid;
+    width: 70%;
+    margin-top: 70px;
+    margin-left: 400px;
+    height: 55vh;
+}
+h1{      
+    font-size: 40px; 
+}
+
+.button{
+    position: absolute;
+    background-color: rgba(160, 16, 160, 0.831);
+    width: 35%;
+    top: 300px;
+    text-align: center;   
+    padding: 10px;
+    border: none ;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-bottom: 150px;
+}
+
+/* first section end */
+
+
+/* second section */
+
+.second{
+    background-color: rgba(252, 252, 252, 0.377);
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 5px;
+    color: white;
+    width: 95%;
+    height: auto;
+    margin: 30px;
+}
+.box{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.icons{
+    font-size: 35px;
+    margin: 20px;
+   
+}
+h3{
+    margin: 20px;
+}
+.p{
+    margin: 20px;
+}
+
+
+/* third ssection */
+
+.third{
+    position: relative;
+    display: grid;
+    overflow: hidden;
+    background-color: white;
+    /* width: 100%; */
+    height: 100vh;
+}
+.image2{
+   
+   margin-top: 55px;
+   margin-bottom: 20px;
+  
+}
+.img2{
+    position: absolute;
+    width: 400px;
+    height: 90vh;
+    border-radius: 20px;
+}
+
+.top{
+    position: absolute;
+    display: grid;
+    margin-top: 40px;
+    margin-left: 450px;
+    width: 40%;
+}
+
+.boxes{
+    position: absolute;
+    display: flex;
+    width: 57%;
+    left: 470px;
+  
+}
+.Box1{
+    display: grid;
+    width: 100%;
+   
+}
+
+.Box2{
+    display: grid;
+    width: 100%;
+}
+
+.inside1,  .inside3{
+    margin-top: 200px;
+    margin-left: 50px;
+    /* border: 1px solid blue; */
+    width: 80%;
+    height: auto;
+   
+}
+
+.inside2, .inside4{
+    margin-top: 10px;
+    margin-left: 50px;
+    /* border: 1px solid blue; */
+    width: 80%;
+    height: auto;
+
+}
+
+
+.h6{
+    top: 0;
+    margin-left: 40px;
+    font-size: 17px;
+}
+.h3{
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.span{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+/* third ssection end */
+
+
+/* section four */
+
+
+.card-container {
+    position: relative;
+    width: 100px; 
+    height: auto; 
+    scroll-behavior: smooth; /* Smooth scrolling */
+    padding: 60px; /* Optional padding */
+    box-sizing: border-box;    
+}
+
+.four{
+    background-color: white;
+}
+
+.card {
+    margin: 40px;
+    position: sticky; /* Position  within the container */
+    width: 90%;
+    height: 100vh;
+    top: 0px;
+    background-color: #85b3e9c1;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: -60px; /* Adjust overlap amount */
+    z-index: 1; /* Ensure proper stacking */
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+
+/* Styling for image and text */
+.card-image {
+    flex: 1;
+    
+}
+
+.card-image .img {
+    width: 40%;
+    height: 70vh;
+    border-radius: 10px;
+}
+
+.card-text {
+    flex: 1;
+    position: absolute;
+    top: 55px;
+    margin-left: 500px;
+}
+
+.bold {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.small-text {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;    
+}
+.button1{
+    position: absolute;
+    background-color: rgba(233, 208, 233, 0.831);
+    width: 50%;
+    top: 200px;
+    text-align: center;   
+    padding: 10px;
+    border: none ;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+}
+
+/* section 5 */
+
+.five{
+    position: relative;
+    display: flex;
+    background-color: white;
+    margin: 0;
+}
+.big-head{
+    margin-top: 200px;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.big-text{
+    margin-top: 50px;
+    margin-left: 400px;
+    text-align: center;
+}
+.model-container{
+    /* background-color: white; */
+    justify-content: space-evenly ;
+    display: flex;
+    /* margin: 5px; */
+}
+
+.model1{
+    background-color: #f5c0c0;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    height: 30vh;
+    margin: 0;
+}
+
+.model2{
+    background-color: #c1f4e9;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    height: 30vh;
+    margin: 0;
+}
+.model3{
+    background-color: #dbc1f4;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    height: 30vh;
+    margin: 0;
+}
+.model4{
+    background-color: #eac1f4;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    height: 30vh;
+    margin: 0;
+}
+
+.model-head{
+    margin: 20px;
+    text-align: center;
+}
+
+.model-text{
+    margin: 20px;
+}
+
+
+.logo-container {
+    overflow: hidden;
+    overflow-y: auto;
+    white-space: nowrap; /* Prevent wrapping of inline elements */
+    width: 100%; /* Full width of the container */
+    margin-top: 20px;
+    position: relative; /* Relative positioning for child positioning */
+}
+
+.logos1 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 25s linear 2s infinite  ;        
+}
+
+.logos1-container:hover .logos{
+    animation-play-state: paused;
+
+}
+.logos1 img {
+    display: inline-block;
+    padding-right: 40px; /* Space between logos */
+    height: 50px; 
+    animation: marquee 25s linear infinite  ;  
+    animation-delay: 10s;
+}
+
+/* Define the keyframes for the marquee animation */
+@keyframes marquee {
+    0% {
+        transform: translateX(0%); /* Start from right edge */
+    }
+
+    50%{
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(-100%); /* Move to left edge */
+    }
+}
+
+/* section 5 end */
+
+/* section 6 */
+
+.six{
+    background-color: white;
+}
+.six-card{
+    /* margin: 40px;     */
+    padding: 5px;
+    width: 95%;
+    margin: 40px;
+    background-color: #f5c0c0;
+    border-radius: 20px;
+}
+
+.six-head{
+    margin: 30px;
+}
+
+.six-text1{
+    margin: 60px;
+}
+/* cards inside texts */
+.six-texts{
+    display: flex;
+}
+
+.six-text2{
+    margin-top: 10px;
+    margin-left: 150px;
+    line-height: 2.5;
+    color: #666;
+}
+.six-text3{
+    margin-top: 10px;
+    margin-left: 150px;
+    line-height: 2.5;
+    color: #666;
+}
+.six-icons{
+    display: flex;
+}
+.six-icon1{
+    display: flex;
+    margin-top: 50px;
+    left: 5px;
+}
+.six-icon2{
+    display: flex;
+    margin-top: 50px;
+    left: 5px;
+}
+.six-img{
+    border-radius: 80px;
+    width: 30%;
+    margin-left: 30px;
+}
+.icon-text{
+    display: grid;
+    left: 0;
+}
+.icon-text1{
+    width: 160%;
+}
+/* media query */
+
+@media screen and (max-width:600px) {
+    
+    .Navbar{
+        background-color: rgba(255, 255, 255, 0.283);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        width: 90%;
+        height: auto;
+        margin: 5px;
+    }
+    .logo{
+        float: right;
+        width: 50%;
+    }
+    
+    .first{
+        display: none;
+    }
+    /* section 2 */
+
+    .second{
+        background-color: rgba(252, 252, 252, 0.377);
+        backdrop-filter: blur(10px);
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        color: white;
+    }
+    .box{
+        display: grid;
+        padding: 5px;        
+    }
+
+   
+    /* section 3 */
+
+    .third{
+        position: relative;
+        /* display: none; */
+        overflow: hidden;
+        background-color: white;
+        width: 100%;
+        height: 250vh;
+        margin: 0;
+    }
+    .image2{
+        display: none;
+    }    
+    
+    .top{
+        display: none;
+    }
+    
+    .boxes{
+        position: absolute;
+        display: grid;
+        top: 40px;
+        left: 0;
+        width: 10%;
+     }
+    .Box1{
+        display: grid;
+        width: 100%;  
+        top: 20px;           
+    }
+    
+    .Box2{
+        display: grid;
+        width: 100%;
+        height: auto;
+      
+    }
+    
+    .inside1,  .inside3{
+        width: 120%;
+        height: 50vh;
+        margin-top: 20px;
+       
+    }
+    
+    .inside2, .inside4{
+        width: 140%;
+        height: 50vh;
+        margin-top: 20px;
+    }   
+    
+   
+    /* sectin4 */
+
+    .card-container {
+        /* display: none; */
+        position: relative;
+        width: 100%; 
+        height: auto;
+        scroll-behavior: smooth; /* Smooth scrolling */
+        padding: 60px; /* Optional padding */
+        box-sizing: border-box;    
+    }
+    
+    .card {
+        /* margin: 40px; */
+        position: sticky; /* Position  within the container */
+        width: 90%;
+        height: 140vh;
+        top: 0;
+        left: 0;
+        margin-left: 15px;
+        background-color: #f5c0c0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-bottom: 60px; /* Adjust overlap amount */
+        z-index: 1; /* Ensure proper stacking */
+        padding: 20px;
+        box-sizing: border-box;
+        transition: transform 0.3s ease;
+    }
+    
+    
+    /* Styling for image and text */
+    .card-image {
+       display: none;        
+    }   
+      
+    .card-text {
+        margin-top: 0;
+        margin-left: 0;
+        width: 90%;
+        height: 100vh;
+        
+    }
+    
+    .bold {
+        position: absolute;
+        top: 0;
+        left: 0 ;
+        font-size: 1.5em;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .small-text {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        font-size: 0.9em;
+        color: #666;
+        /* width: 100%; */
+        height: auto;
+        
+    }
+
+    .button1{
+        position: absolute;
+        background-color: rgba(160, 16, 160, 0.831);
+        width: 90%;
+        top: 300px;
+        text-align: center;   
+        padding: 10px;
+        border: none ;
+        border-radius: 10px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    /* section 5 */
+    
+.five{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    /* display: none; */
+}
+
+.big-head{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    /* display: none; */
+    margin-top: 80px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.big-text{
+    text-align: center;
+    margin-left: 0px;
+}
+.model-container{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    margin: 0;
+    justify-content: space-evenly ;
+    display: grid;
+    width: 100%;
+   
+}
+
+.model1{
+    background-color: #f5c0c0;
+    border-radius: 10px;
+    width: 100%;
+    height: 50vh;
+    margin: 5px;
+}
+
+.model2{
+    background-color: #c1f4e9;
+    border-radius: 10px;
+    width: 100%;
+    height: 50vh;
+    margin: 5px;
+}
+.model3{
+    background-color: #dbc1f4;
+    border-radius: 10px;
+    width: 100%;
+    height: 50vh;
+    margin: 5px;
+}
+.model4{
+    background-color: #eac1f4;
+    border-radius: 10px;
+    width: 100%;
+    height: 50vh;
+    margin: 5px;
+}
+.logo-container{
+    display: none;
+}
+
+/* section 6 */
+
+.six{
+    display: none;
+    position: relative;
+    background-color: white;
+    width: 100%;
+   
+}
+.six-card{    
+    margin-top: 50px;
+    padding: 5px;
+    width: 70%;
+    background-color: #f5c0c0;
+    border-radius: 20px;
+}
+
+/* cards inside texts */
+
+.six-texts{
+    display: grid;
+}
+
+.six-text2{
+    
+    width: 100%;
+    height: 100vh;
+    margin: 10px;
+    line-height: 1.5;
+    color: #666;
+}
+.six-text3{
+    display: none;
+}
+
+.six-icon1{
+    display: grid;
+}
+
+.six-img{
+    border-radius: 80px;
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+.icon-text{
+    display: grid;
+    margin: 0px;
+   
+}
+
+}
+
+
+@media screen and (min-width:600px) and (max-width:900px)  {
+    /*  NAVBAR */
+
+.Navbar{
+    background-color: rgba(255, 255, 255, 0.493);
+     backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px;
+    /* margin-top: 60px; */
+    /* margin-left: 100px; */
+}
+
+.NavItem{
+    justify-content: space-around;
+    margin-right: 200px;
+}
+.logo{
+    width: 40%;
+}
+
+
+/* navbar end */
+
+
+/* first section */
+
+.first{
+    position: relative;
+    display: flex;
+    color: white;
+    /* width: 100%; */
+    height: 150vh;
+    margin: 30px;
+    justify-content: space-evenly;
+   
+}
+.img1{  
+    position: absolute;
+    width: 300px;
+    height: 65vh;
+    left: 0;
+    margin-top: 30px;
+    margin-left: 0;
+}
+.First-head{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+}
+
+.head{    
+    display: grid;
+    width: 70%;
+    margin-top: 70px;
+    margin-left: 320px;
+    height: 55vh;
+}
+h1{      
+    font-size: 40px; 
+}
+
+.button{
+    position: absolute;
+    background-color: rgba(160, 16, 160, 0.831);
+    width: 35%;
+    top: 300px;
+    text-align: center;   
+    padding: 10px;
+    border: none ;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: 150px;
+}
+
+/* first section end */
+
+/* third ssection */
+
+.third{
+    position: relative;
+    display: grid;
+    /* overflow: hidden; */
+    background-color: white;
+    /* width: 100%; */
+    height: 130vh;
+}
+.image2{   
+   margin-top: 100px;
+   margin-bottom: 20px;
+  
+}
+.img2{
+    position: absolute;
+    width: 400px;
+    height: 100vh;
+    border-radius: 20px;
+}
+
+.top{
+    position: absolute;
+    display: grid;
+    margin-top: 60px;
+    margin-left: 450px;
+    width: 40%;
+}
+
+.boxes{
+       display: none;   
+  
+}
+
+/* third ssection end */
+
+
+/* section four */
+
+
+.card-container {
+    position: relative;
+    width: 100px; 
+    height: auto; 
+    scroll-behavior: smooth; /* Smooth scrolling */
+    padding: 40px; /* Optional padding */
+    box-sizing: border-box;    
+}
+
+.four{
+    background-color: white;
+}
+
+.card {
+    margin: 40px;
+    position: sticky; /* Position  within the container */
+    width: 90%;
+    height: 150vh;
+    top: 0px;
+    background-color: #85b4e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 60px; /* Adjust overlap amount */
+    z-index: 1; /* Ensure proper stacking */
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+
+/* Styling for image and text */
+.card-image {
+    flex: 1;
+    
+}
+
+.card-image .img {
+    width: 40%;
+    height: 70vh;
+    border-radius: 10px;
+}
+
+.card-text {
+    flex: 1;
+    position: absolute;
+    top: 55px;
+    margin-left: 300px;
+}
+
+.button1{
+    position: absolute;
+    background-color: rgba(233, 208, 233, 0.831);
+    width: 60%;
+    top: 220px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+}
+
+/* section 5 */
+
+.five{
+    position: relative;
+    display: flex;
+    background-color: white;
+    margin: 0;
+}
+.big-head{
+    margin-top: 200px;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.big-text{
+    margin-top: 40px;
+    margin-left: 200px;
+    text-align: center;
+    width: 50%;
+}
+.model-container{
+    justify-content: space-evenly ;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.model1{
+    background-color: #f5c0c0;
+    border: none;
+    border-radius: 10px;
+    width: 23%;
+    height: 45vh;
+    margin: 0;
+}
+
+.model2{
+    background-color: #c1f4e9;
+    border: none;
+    border-radius: 10px;
+    width: 23%;
+    height: 45vh;
+    margin: 0;
+}
+.model3{
+    background-color: #dbc1f4;
+    border: none;
+    border-radius: 10px;
+    width: 23%;
+    height: 45vh;
+    margin: 0;
+}
+.model4{
+    background-color: #eac1f4;
+    border: none;
+    border-radius: 10px;
+    width: 23%;
+    height: 45vh;
+    margin: 0;
+}
+
+.logo-container{
+    display: none;
+}
+
+/* section 5 end */
+
+/* section 6 */
+
+.six{
+    background-color: white;
+}
+.six-card{
+    margin: 40px;    
+    padding: 10px;
+    width: 90%;
+    background-color: #f5c0c0;
+    border-radius: 20px;
+}
+
+.six-head{
+    margin: 30px;
+}
+
+.six-text1{
+    margin: 60px;
+}
+/* cards inside texts */
+.six-texts{
+    display: flex;
+}
+
+.six-text2{
+    margin-top: 10px;
+    margin-left: 50px;
+    line-height: 1.5;
+    color: #666;
+}
+.six-text3{
+    margin-top: 10px;
+    margin-left: 50px;
+    line-height: 1.5;
+    color: #666;
+}
+.six-icons{
+    display: flex;
+}
+
+.six-img{
+    border-radius: 80px;
+    width: 30%;
+    margin-left: 10px;
+}
+.icon-text1{
+    width: 60%;
+}
+
+    
+}
+
+@media screen and (min-width:1000px) {
+
+    
+.Navbar{
+    background-color: rgba(255, 255, 255, 0.493);
+     backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+.NavItem{
+    justify-content: space-around;
+    margin-right: 200px;
+}
+.logo{
+    width: 20%;
+}
+
+/* navbar end */
+
+
+/* first section */
+
+.first{
+    position: relative;
+    display: flex;
+    color: white;
+    width: 500px;
+    height: 100vh;
+    margin: 30px;
+    justify-content: space-evenly;
+   
+}
+.img1{  
+    position: absolute;
+    width: 400px;
+    height: 65vh;
+    left: 0;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.First-head{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+}
+
+.head{    
+    display: grid;
+    width: 70%;
+    margin-top: 70px;
+    margin-left: 400px;
+    height: 55vh;
+}
+h1{      
+    font-size: 40px; 
+}
+
+.button{
+    position: absolute;
+    background-color: rgba(160, 16, 160, 0.831);
+    width: 35%;
+    top: 300px;
+    text-align: center;   
+    padding: 10px;
+    border: none ;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-bottom: 150px;
+}
+
+/* first section end */
+
+
+/* second section */
+
+.second{
+    background-color: rgba(252, 252, 252, 0.377);
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 5px;
+    color: white;
+    width: 95%;
+    height: auto;
+    margin: 30px;
+}
+.box{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.icons{
+    font-size: 35px;
+    margin: 20px;
+   
+}
+h3{
+    margin: 20px;
+}
+.p{
+    margin: 20px;
+}
+
+
+/* third ssection */
+
+.third{
+    position: relative;
+    display: grid;
+    overflow: hidden;
+    background-color: white;
+    /* width: 100%; */
+    height: 170vh;
+}
+.image2{
+   
+   margin-top: 55px;
+   margin-bottom: 20px;
+  
+}
+.img2{
+    position: absolute;
+    width: 400px;
+    height: 90vh;
+    border-radius: 20px;
+}
+
+.top{
+    position: absolute;
+    display: grid;
+    margin-top: 40px;
+    margin-left: 450px;
+    width: 40%;
+}
+
+.boxes{
+    position: absolute;
+    display: flex;
+    width: 57%;
+    left: 400px;
+  
+}
+.Box1{
+    display: grid;
+    width: 100%;
+   
+}
+
+.Box2{
+    display: grid;
+    width: 100%;
+}
+
+.inside1,  .inside3{
+    margin-top: 250px;
+    margin-left: 50px;
+    /* border: 1px solid blue; */
+    width: 80%;
+    height: auto;
+   
+}
+
+.inside2, .inside4{
+    margin-top: 10px;
+    margin-left: 50px;
+    /* border: 1px solid blue; */
+    width: 80%;
+    height: auto;
+
+}
+
+
+.h6{
+    top: 0;
+    margin-left: 40px;
+    font-size: 17px;
+}
+.h3{
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.span{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+/* third ssection end */
+
+
+/* section four */
+
+
+.card-container {
+    position: relative;
+    width: 100px; 
+    height: auto; 
+    scroll-behavior: smooth; /* Smooth scrolling */
+    padding: 60px; /* Optional padding */
+    box-sizing: border-box;    
+}
+
+.four{
+    background-color: white;
+}
+
+.card {
+    margin: 40px;
+    position: sticky; /* Position  within the container */
+    width: 90%;
+    height: 100vh;
+    top: 0px;
+    background-color: #85b3e9c1;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 60px; /* Adjust overlap amount */
+    z-index: 1; /* Ensure proper stacking */
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+
+/* Styling for image and text */
+.card-image {
+    flex: 1;
+    
+}
+
+.card-image .img {
+    width: 40%;
+    height: 70vh;
+    border-radius: 10px;
+}
+
+.card-text {
+    flex: 1;
+    position: absolute;
+    top: 55px;
+    margin-left: 500px;
+}
+
+.bold {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.small-text {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;    
+}
+.button1{
+    position: absolute;
+    background-color: rgba(233, 208, 233, 0.831);
+    width: 55%;
+    top: 200px;
+    text-align: center;   
+    padding: 10px;
+    border: none ;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+}
+
+/* section 5 */
+
+.five{
+    position: relative;
+    display: flex;
+    background-color: white;
+    margin: 0;
+}
+.big-head{
+    margin-top: 200px;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.big-text{
+    margin-top: 50px;
+    margin-left: 400px;
+    text-align: center;
+}
+.model-container{
+    /* background-color: white; */
+    justify-content: space-evenly ;
+    display: flex;
+    /* margin: 5px; */
+}
+
+.model1{
+    background-color: #f5c0c0;
+    border: none;
+    border-radius: 10px;
+    width: 23%;
+    height: 35vh;
+    margin: 0;
+}
+
+.model2{
+    background-color: #c1f4e9;
+    border: none;
+    border-radius: 10px;
+    width: 23%;
+    height: 35vh;
+    margin: 0;
+}
+.model3{
+    background-color: #dbc1f4;
+    border: none;
+    border-radius: 10px;
+    width: 23%;
+    height: 35vh;
+    margin: 0;
+}
+.model4{
+    background-color: #eac1f4;
+    border: none;
+    border-radius: 10px;
+    width: 23%;
+    height: 35vh;
+    margin: 0;
+}
+
+.model-head{
+    margin: 20px;
+    text-align: center;
+}
+
+.model-text{
+    margin: 20px;
+}
+
+
+.logo-container {
+    overflow: hidden;
+    overflow-y: auto;
+    white-space: nowrap; /* Prevent wrapping of inline elements */
+    width: 100%; /* Full width of the container */
+    margin-top: 20px;
+    position: relative; /* Relative positioning for child positioning */
+}
+
+.logos1 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 25s linear 2s infinite  ;        
+}
+
+.logos1-container:hover .logos{
+    animation-play-state: paused;
+
+}
+.logos1 img {
+    display: inline-block;
+    padding-right: 40px; /* Space between logos */
+    height: 50px; 
+    animation: marquee 25s linear infinite  ;  
+    animation-delay: 10s;
+}
+
+/* Define the keyframes for the marquee animation */
+@keyframes marquee {
+    0% {
+        transform: translateX(0%); /* Start from right edge */
+    }
+
+    50%{
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(-100%); /* Move to left edge */
+    }
+}
+
+/* section 5 end */
+
+/* section 6 */
+
+.six{
+    background-color: white;
+}
+.six-card{
+    /* margin: 40px;     */
+    padding: 5px;
+    width: 95%;
+    margin: 40px;
+    background-color: #f5c0c0;
+    border-radius: 20px;
+}
+
+.six-head{
+    margin: 30px;
+}
+
+.six-text1{
+    margin: 60px;
+}
+/* cards inside texts */
+.six-texts{
+    display: flex;
+}
+
+.six-text2{
+    margin-top: 10px;
+    margin-left: 150px;
+    line-height: 2.5;
+    color: #666;
+}
+.six-text3{
+    margin-top: 10px;
+    margin-left: 150px;
+    line-height: 2.5;
+    color: #666;
+}
+.six-icons{
+    display: flex;
+}
+.six-icon1{
+    display: flex;
+    margin-top: 50px;
+    left: 5px;
+}
+.six-icon2{
+    display: flex;
+    margin-top: 50px;
+    left: 5px;
+}
+.six-img{
+    border-radius: 80px;
+    width: 30%;
+    margin-left: 30px;
+}
+.icon-text{
+    display: grid;
+    left: 0;
+}
+.icon-text1{
+    width: 60%;
+}
+    
+}
